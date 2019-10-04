@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<div class="container">-->
+<!--<img src="./src/IMG_0268.JPG" alt="我的图片" title="my photo">-->
+<!--<div class="topLeft">左上角</div>-->
+<!--</div>-->
+<!--<div class="border">-->
+
+<!--</div>-->
+<!--<button class="buttonStyle">-->
+<!--first button-->
+<!--</button>-->
+<!--<h1>-->
+<!--my name is wangjian-->
+<!--</h1>-->
+<div class="first">first</div>
+<div class="second">second</div>
+<input type="text" name="usernaem" value="runoob" class="input">
+</body>
+<style>
+    .input {
+        /*box-sizing:border-box;*/
+        width:100%;
+    }
+    .first,.second {
+        width: 300px;
+        height: 300px;
+        background-color: goldenrod;
+    }
+    .first {
+        border:1px solid black;
+    }
+    .second {
+        box-sizing:border-box;
+        padding: 50px;
+        border: 1px solid red;
+    }
+    @keyframes myfirst {
+        0% {
+            background-color: red;
+            transform: rotate(10deg);
+        }
+        50% {
+            transform: rotate(60deg);
+        }
+        100% {
+            background-color: blueviolet;
+            /*transform: rotate(90deg);*/
+
+        }
+    }
+    h1 {
+
+        text-shadow: 5px 5px 5px #FF0000;
+    }
+    div {
+        /*width:400px;*/
+        /*height:200px;*/
+        /*resize: both;*/
+        /*overflow: auto;*/
+        /*border:2px solid red;*/
+        /*outline: 2px solid black;*/
+        /*outline-offset: 100px;*/
+        /*align-self: center;*/
+        /*position:absolute;*/
+        /*top: 50%;*/
+        /*left: 50%;*/
+        /*transform:translate(-50%,-50%);*/
+        /*column-count:3;*/
+        /*column-gap:10px;*/
+        /*column-rule-style: solid;*/
+        /*column-rule-width: 10px;*/
+        /*column-rule-color:red;*/
+        /*column-fill:balance;*/
+        /*background-color: yellow;*/
+
+        /*animation:myfirst 10s;*/
+        /*border-radius: 50%;*/
+        /*animation-iteration-count: infinite;*/
+        /*animation-direction: alternate;*/
+        /*animation: myfirst 5s;*/
+        /*transform: translate(50px,100px);*/
+        /*transform:rotate(30deg);*/
+        /*transform:scale(.2,.4);*/
+        /*transform:skew(30deg,20deg);*/
+        /*transform:rotateX(0deg);*/
+        /*-webkit-transform: rotateX(120deg);*/
+        /*transform: rotateX(45deg);*/
+        /*transition: width 2s,height 2s;*/
+        /*-webkit-transform:rotateX(30deg) rotateY(30deg);*/
+        /*perspective 100;*/
+        /*-webkit-perspective: 300;*/
+        /*-webkit-transform-origin:20% 10%;*/
+        /*-webkit-transition: width 2s,linear 2s,height 1s,transform 1s;*/
+        /*-webkit-transition-delay: 0.5s;*/
+        /*width:0;*/
+        /*height: 0;*/
+        /*border-width: 100px;*/
+        /*border-style: solid;*/
+        /*border-color: black white;*/
+        /*border-radius:50%;*/
+        /*transform: rotate(60deg);*/
+
+
+    }
+    .container {
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+    .container img {
+        max-width:80%;
+        opacity: 0.3;
+    }
+    .topLeft {
+        position: absolute;
+        top: 10px;
+        left:10px;
+    }
+    div h1 {
+        column-span:all;
+    }
+    div:hover {
+        /*width: 0;*/
+        /*height: 0;*/
+        /*border: 100px;*/
+        /*-webkit-border-radius:50%;*/
+        /*-moz-border-radius:50%;*/
+        /*border-radius:50%;*/
+        /*border-color: black white;*/
+        /*background-color: aqua;*/
+        /*height:400px;*/
+        /*width: 500px;*/
+        /*-webkit-transform: rotateY(180deg);*/
+    }
+    .border{
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*background-color: yellow;*/
+        /*border-radius: 50%;*/
+        /*box-shadow: 10px 10px 5px red;*/
+        /*background:linear-gradient(red,blue);*/
+        /*background:linear-gradient(to right,red,blue);*/
+        /*background:linear-gradient(to top right,red,blue);*/
+    }
+    .imgStyle {
+        /*max-width: 10%;*/
+        /*height:auto;*/
+        /*border:1px solid black;*/
+        /*border-radius: 10px;*/
+        /*padding:10px;*/
+
+    }
+    .buttonStyle {
+        /*text-align:center;*/
+        /*border: 1px solid gold;*/
+        /*padding: 16px 32px;*/
+        /*font-size:16px;*/
+        /*transition-duration: 4s;*/
+        /*cursor: pointer;*/
+    }
+    .buttonStyle:hover {
+        /*background-color: #4caf50;*/
+    }
+</style>
+</html>

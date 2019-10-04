@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position layout</title>
+</head>
+<body>
+<div class="contain">
+    <div class="text"></div>
+</div>
+<div class="contrast"></div>
+</body>
+<style>
+    .contain {
+        position:relative;
+        width: 200px;
+        height: 200px;
+        background-color: #57a28b;
+
+        left: 50%;
+        top: 10rem;
+        /*top: 50%;*/
+        /*transform: translate(-50% ,-50%);*/
+    }
+    .text {
+        position:absolute;
+        width: 100px;
+        height: 300px;
+        background-color: #a21f32;
+
+        left: 40%;
+        top: 20%;
+    }
+    .contrast {
+        width: 200px;
+        height: 200px;
+        background-color: #fc8c84;
+    }
+</style>
+</html>
